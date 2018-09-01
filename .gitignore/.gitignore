@@ -1,0 +1,7 @@
+1.a. TRUE
+1.b. TRUE
+2.Recycling of elements in vector - When applying an operation to 2 vectors that requires them to be the same length, R automatically recycles or repeats , elements of the shorter one , until it is long enough to match the longer Vector.
+3.Suppose we have two vectors c(1,2,4) and c(6,0,2,8,7), where the fisrt one is shorter with only 3 elements. If we sum these two vectors , we will get output as follows with warning messgage
+>c(1,2,4) + c(6,0,2,8,7) 
+Warning message: In c(1, 2, 4) + c(6, 0, 2, 8, 7) : longer object length is not a multiple of shorter object length 
+x [1] 7 2 6 9 9
